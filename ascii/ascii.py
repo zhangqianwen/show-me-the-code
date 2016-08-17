@@ -1,4 +1,4 @@
-#code:UTF-8
+#coding:UTF-8
 from PIL import Image
 import argparse
 
@@ -19,7 +19,7 @@ OUTPUT = args.output
 
 ascii_char = list("$@B%&&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\()1{}[]?-_+~<>i|!lI;:,\"^'.]")
 
-
+#256灰度转字符
 def get_char(r,b,g,alpha = 256):
     if alpha == 0:
         return ' '
